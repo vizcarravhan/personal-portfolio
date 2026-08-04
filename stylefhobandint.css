@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(0, 0%, 1%);
+    height: 60%;
+}
+#fav{
+    color: hsl(0, 0%, 70%);
+    font-family: Verdana;
+    font-size: clamp(16px, 13vw, 40px);
+    margin-top: 10px;
+    
+}
+#hdr{
+    color: hsl(0, 0%, 70%);
+    font-family: Verdana;
+    font-size: clamp(16px, 15vw, 40px);
+    margin-top: 10px;
+    margin-left: 10%;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    background: hsl(0, 0%, 0%);
+    overflow: hidden;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+}
+.navbar a{
+    font-size: clamp(13px, 1.5vw, 60px);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background: hsl(0, 0%, 20%);
+    border-radius: 20px;
+}
+.navbar a:active{
+    background: hsl(0, 0%, 5%);
+    border-radius: 20px;
+}
+
+.navbar{
+    margin-top: 25%; /* Phone */
+}
+
+@media (min-width: 700px){
+    .navbar{
+        margin-top: 15%; /* Tablet */
+    }
+}
+
+@media (min-width: 1200px){
+    .navbar{
+        margin-top: 10%; /* Desktop */
+    }
+}
+
+
+.bi{
+    font-size: 2em;
+    color: white;
+}
+
+
+
+
+.homediv{
+    text-align: center;
+    margin-top: 10%;
+}
+#home{
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px;
+}
+.homediv #home:hover{
+    background: hsl(0, 0%, 80%);
+}
+.homediv #home:active{
+    background: hsl(0, 0%, 60%);
+}
+
+
+.navbar #hai{
+    background: hsl(0, 0%, 10%);
+    border-radius: 20px;
+}
