@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(0, 0%, 1%);
+    background-color: hsl(0, 0%, 5%);
     height: 60%;
 }
 #fav{
@@ -34,7 +34,7 @@ body{
     float: left;
 }
 .navbar a{
-    font-size: clamp(5px, 1.5vw, 60px);
+    font-size: clamp(9px, 1.8vw, 60px);
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -96,7 +96,7 @@ body{
 }
 
 
-.navbar #e{
+.navbar #s{
     background: hsl(0, 0%, 10%);
     border-radius: 20px;
 }
